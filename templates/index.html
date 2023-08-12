@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Sharmin.ai</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="static/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="static/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="static/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/css/style.css" rel="stylesheet">
+
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container">
+
+      <div class="logo float-left">
+        <h1 class="text-light"><a href="/"><span>Sharmin.ai</span></a></h1>
+      </div>
+
+      <nav class="nav-menu float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          {% if session["user"] %}
+          <li><a href="/logout">Logout</a></li>
+          {% else %}
+          <li><a href="/register">Register</a></li>
+          {% endif %}
+          
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex justify-cntent-center align-items-center">
+    <div id="heroCarousel" class="container carousel carousel-fade" data-ride="carousel">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animated fadeInDown">Welcome to <span>Sharmin.ai</span></h2>
+          <p class="animated fadeInUp">Unlock the potential of artificial intelligence and revolutionize the way you
+            approach job recommendations, chatbot interactions, and personality assessments. Our platform is designed to
+            empower individuals and businesses with state-of-the-art AI technology that seamlessly integrates into your
+            daily operations.</p>
+          <a href="" class="btn-get-started animated fadeInUp">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animated fadeInDown">AI-powered Job Recommendation</h2>
+          <p class="animated fadeInUp"> Our advanced algorithms analyze your unique profile, including your
+            qualifications, preferences, and career goals, to present you with a curated list of job recommendations
+            that are most likely to ignite your passion and enhance your professional journey.</p>
+          <a href="" class="btn-get-started animated fadeInUp">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animated fadeInDown">Intelligent Chatbot feature</h2>
+          <p class="animated fadeInUp"> our chatbot understands the context and provides timely, accurate responses.
+            Whether you need assistance with troubleshooting, product recommendations, or general information, our
+            Chatbot is your reliable virtual assistant, ensuring you receive the support you need, whenever you need it.
+          </p>
+          <a href="" class="btn-get-started animated fadeInUp">Read More</a>
+        </div>
+      </div>
+      <!-- Slide 4 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animated fadeInDown">Personality Checking feature</h2>
+          <p class="animated fadeInUp"> designed to provide valuable insights into your unique personality traits. By
+            analyzing patterns in your behavior, communication style, and preferences, our AI technology can uncover
+            hidden aspects of your personality, empowering you to gain a deeper understanding of yourself. Whether
+            you're seeking personal growth or aiming to enhance team dynamics in a professional setting, our Personality
+            Checking feature offers a comprehensive assessment that goes beyond surface-level evaluations.</p>
+          <a href="" class="btn-get-started animated fadeInUp">Read More</a>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= ABout Section ======= -->
+    <section id="about">
+      <div class="container">
+        <h2 class="animated fadeInDown">About Us</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="icon-box icon-box-pink">
+              <div class="icon"><i class="bx bx-rocket icon"></i></div>
+              <h4 class="title"><a href="">Empowering Career Growth</a></h4>
+              <p class="description">Our mission is to empower individuals in their career growth. We believe in
+                harnessing the power of AI to provide innovative solutions that help professionals excel in their chosen
+                fields</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box icon-box-cyan">
+              <div class="icon"><i class="bx bx-group icon"></i></div>
+              <h4 class="title"><a href=""> Expert Team of AI Specialists</a></h4>
+              <p class="description">With extensive expertise in machine learning, natural language processing, and data
+                analytics, our team ensures that our AI algorithms are robust, accurate, and constantly evolving.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box icon-box-green">
+              <div class="icon"><i class="bx bx-globe icon"></i></div>
+              <h4 class="title"><a href="">Global Reach</a></h4>
+              <p class="description"> Our platform caters to individuals from various backgrounds, industries, and
+                locations, allowing us to provide a comprehensive perspective on the job market</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box icon-box-blue">
+              <div class="icon"><i class="bx bx-shield icon"></i><br></div>
+              <h4 class="title"><a href="">Privacy and Security</a></h4>
+              <p class="description"> We prioritize the privacy and security of our users' data. Our platform adheres to
+                stringent data protection measures and industry best practices</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 video-box">
+            <img src="static/img/Image 3.jpeg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-user"></i></div>
+              <h4 class="title"><a href="">Register</a></h4>
+              <p class="description">Register and get access to wide range of AI services</p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-grid-alt"></i></div>
+              <h4 class="title"><a href="#services">Services</a></h4>
+              <p class="description">Check out the services category below</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= Services Section ======= -->
+    <section id="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Services We Offer</h2>
+          <p>Let us empower you to achieve your career goals with the transformative power of artificial intelligence.
+            Explore our Services section and unlock a world of possibilities today.</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-5">
+            <img src="static/img/service 1.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-4">
+            <h3>Job Recommendation</h3>
+            <p class="font-italic">
+              Our AI-driven job recommendation system is continuously learning and adapting based on user feedback and
+              market trends. As you interact with the platform and provide feedback on job recommendations, our
+              algorithms intelligently fine-tune their suggestions to better align with your evolving preferences and
+              goals.
+            </p>
+            <ul>
+              <li><i class="icofont-check"></i> By understanding your individual profile, we can match you with job
+                opportunities that are highly relevant to your background and aspirations.</li>
+              <li><i class="icofont-check"></i> Our algorithms consider factors such as industry, location, company
+                culture, and job requirements to provide you with a well-rounded selection of opportunities.</li>
+            </ul>
+            <div class="card">
+              <a href="/job_recommend" target="_blank">Recommend me a job</a>
+            </div>
+          </div>
+
+          <div class="row" data-aos="fade-up">
+            <div class="col-md-5 order-1 order-md-2">
+              <img src="static/img/service 2.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-7 pt-5 order-2 order-md-1">
+              <h3>Chatbot for learning etiquttes</h3>
+              <p class="font-italic">
+
+              </p>
+              <p>
+                With the help of our etiquette chatbot, individuals can elevate their professional presence,
+                build stronger relationships, and excel in diverse business environments. Discover the power of polished
+                etiquette and unlock your full potential in the corporate world with our interactive and
+                personalized learning experience.
+              </p>
+              <p> The chatbot tailors its guidance to the specific needs and goals of each user. By understanding the
+                user's background and professional objectives it can provide customized advice relevant to their unique
+                circumstances</p>
+              <div class="card">
+                <a href="/chatbot" target="_blank">Chat Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" data-aos="fade-up">
+            <div class="col-md-5">
+              <img src="static/img/service 3.jpeg" class="img-fluid" alt="" style="margin-top: 70px;">
+            </div>
+            <div class="col-md-7 pt-5">
+              <h3>Personality Check</h3>
+              <p>Uncover your strengths, preferences, and working style to make more informed career decisions and find
+                roles that truly suits you.</p>
+              <ul>
+                <li><i class="icofont-check"></i> Comprehensive Personality Assessment.</li>
+                <li><i class="icofont-check"></i> Career Alignment Insights: Our AI-powered personality check goes
+                  beyond mere assessment by providing insights into how your unique personality traits align with
+                  different job roles and work environments.</li>
+              </ul>
+              <div class="card">
+                <a href="/test" target="_blank">Check Personality</a>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+    </section><!-- End Services Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
+    
+
+    <section id="contact">
+
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="/job_recommend">Job Recommendation</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="/test">Personality Check</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="/chatbot">Interactive Chatbot</a></li>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>Contact Us</h4>
+              <p>
+                ABC Street<br>
+                united states<br>
+                <strong>Phone:</strong> xxxxxxxxx <br>
+                <strong>Email Id:</strong> xxx@gmail.com<br>
+              </p>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-info">
+              <h3>About Us</h3>
+              <p>This is a AI service webapp</p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="static/vendor/jquery/jquery.min.js"></script>
+    <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="static/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="static/vendor/php-email-form/validate.js"></script>
+    <script src="static/vendor/venobox/venobox.min.js"></script>
+    <script src="static/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="static/vendor/counterup/counterup.min.js"></script>
+    <script src="static/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="static/vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="static/js/main.js"></script>
+
+</body>
+
+</html>

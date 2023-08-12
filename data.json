@@ -1,0 +1,529 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello, thanks for asking",
+                "Good to see you again",
+                "Hi there, how can I help?",
+                "Hi, how can I help?",
+                "Hello, how can I help you?",
+                "Hi there, what can I do for you?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "chatty",
+            "patterns": [
+                "chatty",
+                "Chatty",
+                "Chatty?",
+                "chatbot"
+            ],
+            "responses": [
+                "Yes!",
+                "tell me how can I help you?",
+                "I am here For help ask me."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "etiquettes_kinds",
+            "patterns": [
+                "What are the kinds of etiquette?",
+                "What are the different types of etiquette?",
+                "different types of etiquette?",
+                "types of etiquette",
+                "about etiquette types",
+                "about etiquette kinds"
+            ],
+            "responses": [
+                "types of etiquette include social etiquette, business etiquette, and dining etiquette,personal etiquette among others."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Thanks",
+            "patterns": [
+                "thanks",
+                "Great, thanks",
+                "Ok",
+                "Nice",
+                "Thank you"
+            ],
+            "responses": [
+                "Glad helping you ",
+                "Happy to help!",
+                "you need anything else, just let me know.",
+                "No problem, have a great day!",
+                "My pleasure",
+                "Any time!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "my_name",
+            "patterns": [
+                "who are you!",
+                "what is your name?",
+                "what should I call you?",
+                "what do you go by?",
+                "who is there?",
+                "who is this?"
+            ],
+            "responses": [
+                "I am a language model AI ,trained to assist users in based on the input provided to me.",
+                "My Name is Chatty an AI chatbot, I am here to assist you in based on the input provided to me.",
+                "I am Chatty, an AI chatbot, I am here to assist you in based on the input provided to me.",
+                "I am Chatty, an AI chatbot, I am here to assist you in based on the input provided to me."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I can guide you through Adverse Etiquttes reaction list, Etiquttes roles and principles Just try me",
+                "Offering support for Adverse Etiquttes reaction list, Etiquttes roles and principles Just try me "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "etiquette",
+            "patterns": [
+                "What are the etiquette rules?",
+                "what is etiquette?",
+                "what do you know of etiquette?",
+                "can you Guide me through etiquette?",
+                "I want to know about etiquette",
+                "Etiquette principles",
+                "What is considered proper etiquette?",
+                "Can you explain the etiquette rules?"
+            ],
+            "responses": [
+                "Etiquette refers to the conventions that govern behavior in society. Some of the basic principles of etiquette include showing respect for others, being polite and courteous, using good manners, and avoiding offensive or inappropriate behavior.",
+                "Good etiquette involves treating others with kindness and respect, being considerate of other people's feelings, and following accepted social norms and customs."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "etiquette_roles",
+            "patterns": [
+                "What are the roles of etiquette in society?",
+                "How does etiquette impact society?",
+                "What is the importance of etiquette in our lives?",
+                "Why is etiquette important?",
+                "What is the importance of etiquette in our lives?",
+                "Why is etiquette important?",
+                "What is the importance of etiquette in our lives?",
+                "Why is etiquette important?",
+                "etiquette roles"
+            ],
+            "responses": [
+                "Etiquette plays a crucial role in shaping and maintaining a civilized and harmonious society. It helps to create a sense of order and stability, and allows individuals to interact with each other in a predictable and respectful manner.By following etiquette rules, people can communicate effectively, form positive relationships, and avoid misunderstandings and conflicts.",
+                "Etiquette has a positive impact on one's personal and professional life. It helps people to make a good impression and build trust with others, and it can also lead to increased confidence and self-esteem."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "adverse_etiquette",
+            "patterns": [
+                "What are the adverse etiquette reactions?",
+                "What are the consequences of breaking etiquette rules?",
+                "about breaking etiquette",
+                "breaking etiquette"
+            ],
+            "responses": [
+                "Breaking etiquette rules can result in social awkwardness, embarrassment, or even offense to others. It can also damage personal relationships and negatively impact one's reputation in society."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "business_etiquette",
+            "patterns": [
+                "What are the business etiquette rules?",
+                "Business etiquette principles",
+                "What is considered proper business etiquette?",
+                "Can you explain the business etiquette rules?",
+                "What are the business etiquette rules?",
+                "Business etiquette principles"
+            ],
+            "responses": [
+                "Business etiquette refers to the conventions and protocols that govern behavior in a professional setting. Some of the basic principles of business etiquette include dressing appropriately, being punctual for meetings and appointments, using polite and professional language, and avoiding actions that could be perceived as rude or disrespectful.",
+                "Good business etiquette also involves being mindful of cultural differences, showing respect for other people's time, and being organized and prepared for meetings and presentations."
+            ],
+            "context": [
+                "business"
+            ]
+        },
+        {
+            "tag": "dining_etiquette",
+            "patterns": [
+                "What are the dining etiquette rules?",
+                "Dining etiquette principles",
+                "What is considered proper dining etiquette?",
+                "Can you explain the dining etiquette rules?",
+                "What are the dining etiquette rules?",
+                "Dining etiquette principles",
+                "What is considered proper dining etiquette?",
+                "Can you explain the dining etiquette rules?",
+                "dining etiquette"
+            ],
+            "responses": [
+                "Dining etiquette refers to the conventions and protocols that govern behavior in a social setting. Some of the basic principles of dining etiquette include arriving on time for a dinner party or restaurant reservation, waiting to begin eating until the host or everyone at the table has been served, using utensils properly, and avoiding offensive or inappropriate behavior.",
+                "Good dining etiquette also involves being mindful of cultural differences, showing respect for other people's time, and being organized and prepared for meetings and presentations."
+            ],
+            "context": [
+                "dining"
+            ]
+        },
+        {
+            "tag": "social_etiquette",
+            "patterns": [
+                "What are the social etiquette rules?",
+                "Social etiquette principles",
+                "What is considered proper social etiquette?",
+                "Can you explain the social etiquette rules?",
+                "What are the social etiquette rules?",
+                "Social etiquette principles",
+                "What is considered proper social etiquette?",
+                "Can you explain the social etiquette rules?",
+                "social etiquette"
+            ],
+            "responses": [
+                "Social etiquette refers to the conventions and protocols that govern behavior in a social setting. Some of the basic principles of social etiquette include arriving on time for a dinner party or restaurant reservation, waiting to begin eating until the host or everyone at the table has been served, using utensils properly, and avoiding offensive or inappropriate behavior.",
+                "Good social etiquette also involves being mindful of cultural differences, showing respect for other people's time, and being organized and prepared for meetings and presentations."
+            ],
+            "context": [
+                "social"
+            ]
+        },
+        {
+            "tag": "business_etiquette_rules",
+            "patterns": [
+                "What are the business etiquette rules?",
+                "Business etiquette principles",
+                "What is considered proper business etiquette?",
+                "Can you explain the business etiquette rules?",
+                "What are the business etiquette rules?",
+                "Business etiquette principles",
+                "What is considered proper business etiquette?",
+                "Can you explain the business etiquette rules?",
+                "What are the business etiquette rules?",
+                "Business etiquette principles",
+                "What is considered proper business etiquette?",
+                "Can you explain the business etiquette rules?",
+                "business etiquette"
+            ],
+            "responses": [
+                "Business etiquette refers to the conventions and protocols that govern behavior in a professional setting. Some of the basic principles of business etiquette include dressing appropriately, being punctual for meetings and appointments, using polite and professional language, and avoiding actions that could be perceived as rude or disrespectful.",
+                "Good business etiquette also involves being mindful of cultural differences, showing respect for other people's time, and being organized and prepared for meetings and presentations."
+            ],
+            "context": [
+                "business"
+            ]
+        },
+        {
+            "tag": "etiquette_skills",
+            "patterns": [
+                "What are the key etiquette skills?",
+                "What are some essential etiquette practices?",
+                "What are some important etiquette rules to follow?",
+                "Can you list some etiquette skills?",
+                "What are some etiquette skills?",
+                "What are some etiquette guidelines?",
+                "What are some etiquette tips?",
+                "What are some etiquette rules?",
+                "What are some etiquette practices?",
+                "some etiquette skills"
+            ],
+            "responses": [
+                "Etiquette skills are important for building and maintaining relationships, both personal and professional. Some key etiquette skills include: being respectful, being considerate of others, being on time, using good manners, avoiding offensive language, being courteous and polite, being a good listener, being mindful of personal appearance and hygiene, and being aware of cultural differences.",
+                "It is also important to be able to handle difficult situations with grace and poise, and to show empathy and understanding towards others. By demonstrating good etiquette skills, you can create a positive and respectful environment for yourself and those around you."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "food_etiquette_rules",
+            "patterns": [
+                "What are the food etiquette rules?",
+                "Food etiquette principles",
+                "What is considered proper food etiquette?",
+                "Can you explain the food etiquette rules?",
+                "What are some food etiquette rules?",
+                "What are some food etiquette guidelines?",
+                "What are some food etiquette best practices?",
+                "What are some food etiquette tips?",
+                "about food etiquette",
+                "food etiquette rules",
+                "food etiquette principles",
+                "food etiquette guidelines"
+            ],
+            "responses": [
+                "Food etiquette refers to the conventions and protocols that govern behavior while eating, especially in formal settings. Some of the basic principles of food etiquette include using utensils correctly, avoiding talking with your mouth full, waiting for others to start eating before you begin, and not reaching across the table for food.",
+                "Good food etiquette also involves being mindful of cultural differences, such as the use of chopsticks in some Asian cultures, and showing respect for the host by not making negative comments about the food."
+            ],
+            "context": [
+                "food",
+                "dining"
+            ]
+        },
+        {
+            "tag": "telephone_etiquette_rules",
+            "patterns": [
+                "What are the telephone etiquette rules?",
+                "Telephone etiquette principles",
+                "What is considered proper telephone etiquette?",
+                "Can you explain the telephone etiquette rules?",
+                "What are some telephone etiquette rules?",
+                "What are some telephone etiquette guidelines?",
+                "What are some telephone etiquette best practices?",
+                "What are some telephone etiquette tips?",
+                "about telephone etiquette",
+                "telephone etiquette rules",
+                "telephone etiquette principles",
+                "telephone etiquette",
+                "telephone etiquette guidelines"
+            ],
+            "responses": [
+                "Telephone etiquette refers to the conventions and protocols that govern behavior while using the telephone, especially in a professional setting. Some of the basic principles of telephone etiquette include answering the phone promptly, identifying yourself and the organization you represent, speaking clearly and calmly, and avoiding distractions while on the call.",
+                "Good telephone etiquette also involves being polite, using proper grammar and avoiding slang, and being mindful of the tone of your voice. It's also important to listen actively and avoid interrupting the other person while on the call."
+            ],
+            "context": [
+                "telephone",
+                "phone",
+                "communication"
+            ]
+        },
+        {
+            "tag": "email_etiquette_rules",
+            "patterns": [
+                "What are the email etiquette rules?",
+                "Email etiquette principles",
+                "What is considered proper email etiquette?",
+                "Can you explain the email etiquette rules?",
+                "What are some email etiquette rules?",
+                "What are some email etiquette guidelines?",
+                "What are some email etiquette best practices?",
+                "What are some email etiquette tips?",
+                "about email etiquette",
+                "email etiquette rules",
+                "email etiquette"
+            ],
+            "responses": [
+                "Email etiquette refers to the conventions and protocols that govern behavior while sending and receiving emails, especially in a professional setting. Some of the basic principles of email etiquette include using a professional and descriptive subject line, avoiding the use of all caps or excessive punctuation, and proofreading your message before sending it.",
+                "Good email etiquette also involves being mindful of the recipient's time, being concise and to the point, and using a polite and professional tone. It's also important to avoid sending emails late at night or early in the morning, unless it is an emergency."
+            ],
+            "context": [
+                "email",
+                "communication"
+            ]
+        },
+        {
+            "tag": "shopping_etiquette_rules",
+            "patterns": [
+                "What are the shopping etiquette rules?",
+                "Shopping etiquette principles",
+                "What is considered proper shopping etiquette?",
+                "Can you explain the shopping etiquette rules?",
+                "What are some shopping etiquette rules?",
+                "What are some shopping etiquette guidelines?",
+                "What are some shopping etiquette best practices?",
+                "What are some shopping etiquette tips?",
+                "What are some shopping etiquette tricks?",
+                "shopping etiquette "
+            ],
+            "responses": [
+                "Shopping etiquette refers to the conventions and protocols that govern behavior while shopping, especially in public places like stores and markets. Some of the basic principles of shopping etiquette include being considerate of other shoppers and store employees, keeping your shopping cart or basket under control, and dressing appropriately for the setting.",
+                "Good shopping etiquette also involves respecting the store's merchandise and displays, keeping the shopping area clean and tidy, and being mindful of your personal space and the personal space of others."
+            ],
+            "context": [
+                "shopping",
+                "store"
+            ]
+        },
+        {
+            "tag": "meeting_etiquette_rules",
+            "patterns": [
+                "What are the meeting etiquette rules?",
+                "Meeting etiquette principles",
+                "What is considered proper meeting etiquette?",
+                "Can you explain the meeting etiquette rules?",
+                "What are some meeting etiquette rules?",
+                "What are some meeting etiquette guidelines?",
+                "What are some meeting etiquette best practices?",
+                "What are some meeting etiquette tips?",
+                "tell me about meeting etiquette",
+                "what is meeting etiquette",
+                "meeting etiquette",
+                "about meeting etiquette"
+            ],
+            "responses": [
+                "Meeting etiquette refers to the conventions and protocols that govern behavior while attending or leading a meeting, especially in a professional setting. Some of the basic principles of meeting etiquette include being punctual, being prepared and organized, and avoiding distractions like texting or checking email.",
+                "Good meeting etiquette also involves being an active and engaged participant, avoiding side conversations, and being mindful of the time, making sure to keep the meeting on track and on schedule. It's also important to show respect for the other participants by paying attention, not interrupting, and refraining from being disruptive."
+            ],
+            "context": [
+                "meeting",
+                "business",
+                "professional"
+            ]
+        },
+        {
+            "tag": "cultural_etiquette_rules",
+            "patterns": [
+                "What are the cultural etiquette rules?",
+                "Cultural etiquette principles",
+                "What is considered proper cultural etiquette?",
+                "Can you explain the cultural etiquette rules?",
+                "What are some cultural etiquette rules?",
+                "What are some cultural etiquette guidelines?",
+                "What are some cultural etiquette tips?",
+                "What are some cultural etiquette best practices?",
+                "cultural etiquette guidelines",
+                "cultural etiquette",
+                "cultural etiquette tips"
+            ],
+            "responses": [
+                "Cultural etiquette refers to the manners and customs that are specific to a particular culture. These conventions and protocols can vary greatly from one culture to another, and it's important to be aware of them in order to show respect and avoid offending others.",
+                "For example, in some cultures, it's customary to remove your shoes when entering someone's home, while in others it's appropriate to bow when greeting someone. In some cultures, pointing with your index finger is considered rude, while in others it's acceptable. It's important to do your research and learn about the cultural norms of the place you are visiting in order to behave appropriately."
+            ],
+            "context": [
+                "culture",
+                "travel",
+                "international"
+            ]
+        },
+        {
+            "tag": "professional_etiquette_rules",
+            "patterns": [
+                "What are the professional etiquette rules?",
+                "Professional etiquette principles",
+                "What is considered proper professional etiquette?",
+                "Can you explain the professional etiquette rules?",
+                "professional etiquette",
+                "professional etiquette rules",
+                "professional etiquette principles",
+                "professional etiquette guidelines",
+                "professional etiquette tips",
+                "professional etiquette advice"
+            ],
+            "responses": [
+                "Professional etiquette refers to the manners and expectations for behavior in a work environment. It encompasses a wide range of behaviors, from dressing appropriately and being punctual, to communicating effectively and working collaboratively with others.",
+                "Some key principles of professional etiquette include dressing appropriately for the workplace, being respectful and courteous to colleagues and clients, avoiding distractions like using your phone during meetings, and being mindful of your tone and language in email and other forms of communication."
+            ],
+            "context": [
+                "work",
+                "business",
+                "professional"
+            ]
+        },
+        {
+            "tag": "personal_etiquette_rules",
+            "patterns": [
+                "What are the personal etiquette rules?",
+                "Personal etiquette principles",
+                "What is considered proper personal etiquette?",
+                "Can you explain the personal etiquette rules?",
+                "personal etiquette",
+                "personal etiquette rules",
+                "personal etiquette principles",
+                "personal etiquette guidelines",
+                "personal etiquette tips",
+                "personal etiquette advice",
+                "about personal etiquette"
+            ],
+            "responses": [
+                "Personal etiquette refers to the conventions and norms that are considered polite and respectful in everyday life. It covers a wide range of behaviors, from showing up on time for appointments and events, to being considerate of others and avoiding offensive or inappropriate language.",
+                "Some important principles of personal etiquette include being respectful of others, being honest and straightforward in your communication, avoiding interrupting others when they are speaking, and showing gratitude and appreciation for the actions of others."
+            ],
+            "context": [
+                "personal",
+                "everyday life",
+                "social"
+            ]
+        }
+    ]
+}
